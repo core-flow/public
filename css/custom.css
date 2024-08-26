@@ -1,0 +1,54 @@
+/* your styles go here */
+/* Example site test */
+
+.box-image-text .image {
+    min-height: 190px;
+    max-height: 190px;
+}
+
+.box-image-text .image img {
+    max-height: 190px;
+    margin: auto;
+}
+
+.box-simple {
+    min-height: 230px;
+}
+
+table {
+    width: 100%;
+}
+
+table caption {
+    text-align: center;
+}
+
+table tr {
+    border-top: solid 1px lightblue;
+    border-bottom: solid 1px lightblue;
+}
+
+table th,
+table td {
+    padding: 1em;
+    box-sizing: border-box;
+}
+
+table th {
+    color: white;
+    background-color: var(--primary-accent);
+}
+
+textarea.form-control {
+    height: 14em;
+}
+
+#footer {
+  margin-top: 3em;
+}
+
+.members,
+.company {
+    max-width: 768px;
+    margin: 0 auto;
+}
