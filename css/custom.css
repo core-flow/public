@@ -105,3 +105,10 @@ section.post > div.row > div > p > img {
 #post-content h6:not(:first-of-type) {
   margin-top: 1.5em;
 }
+
+@media (320px <= width < 768px) {
+  .home-carousel {
+    min-height: 543px;
+  }
+}
+
