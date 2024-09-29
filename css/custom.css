@@ -78,22 +78,22 @@ section.post > div.row > div > p > img {
   width: 100%;
 }
 
-p {
+#post-content p {
   font-size: 16px;
 }
 
-h1 ~ p,
-h2 ~ p,
-h3 ~ p,
-h4 ~ p,
-h5 ~ p,
-h6 ~ p {
+#post-content h1 ~ p,
+#post-content h2 ~ p,
+#post-content h3 ~ p,
+#post-content h4 ~ p,
+#post-content h5 ~ p,
+#post-content h6 ~ p {
   padding: 0 .5em;
   line-height: 1.5em;
   box-sizing: border-box;
 }
 
-li {
+#post-content li {
   margin: .5em 0;
 }
 
