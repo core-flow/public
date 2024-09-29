@@ -73,3 +73,7 @@ details[open] summary {
   border-bottom: 1px solid #aaa;
   margin-bottom: 0.5em;
 }
+
+section.post > div.row > div > p > img {
+  width: 100%;
+}
