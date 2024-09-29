@@ -2,45 +2,45 @@
 /* Example site test */
 
 .box-image-text .image {
-    min-height: 190px;
-    max-height: 190px;
+  min-height: 190px;
+  max-height: 190px;
 }
 
 .box-image-text .image img {
-    max-height: 190px;
-    margin: auto;
+  max-height: 190px;
+  margin: auto;
 }
 
 .box-simple {
-    min-height: 230px;
+  min-height: 230px;
 }
 
 table {
-    width: 100%;
+  width: 100%;
 }
 
 table caption {
-    text-align: center;
+  text-align: center;
 }
 
 table tr {
-    border-top: solid 1px lightblue;
-    border-bottom: solid 1px lightblue;
+  border-top: solid 1px lightblue;
+  border-bottom: solid 1px lightblue;
 }
 
 table th,
 table td {
-    padding: 1em;
-    box-sizing: border-box;
+  padding: 1em;
+  box-sizing: border-box;
 }
 
 table th {
-    color: white;
-    background-color: var(--primary-accent);
+  color: white;
+  background-color: var(--primary-accent);
 }
 
 textarea.form-control {
-    height: 14em;
+  height: 14em;
 }
 
 #footer {
@@ -49,6 +49,27 @@ textarea.form-control {
 
 .members,
 .company {
-    max-width: 768px;
-    margin: 0 auto;
+  max-width: 768px;
+  margin: 0 auto;
+}
+
+details {
+  border: 1px solid #aaa;
+  border-radius: 4px;
+  padding: 0.5em 0.5em 0;
+}
+
+summary {
+  font-weight: bold;
+  margin: -0.5em -0.5em 0;
+  padding: 0.5em;
+}
+
+details[open] {
+  padding: 0.5em;
+}
+
+details[open] summary {
+  border-bottom: 1px solid #aaa;
+  margin-bottom: 0.5em;
 }
