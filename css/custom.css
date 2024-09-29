@@ -95,7 +95,7 @@ section.post > div.row > div > p > img {
 }
 
 #post-content li {
-  margin: .5em 0;
+  margin: .5em 0 .8em;
 }
 
 #post-content h2:not(:first-of-type),
@@ -103,5 +103,5 @@ section.post > div.row > div > p > img {
 #post-content h4:not(:first-of-type),
 #post-content h5:not(:first-of-type),
 #post-content h6:not(:first-of-type) {
-  margin-top: 2em;
+  margin-top: 1.5em;
 }
