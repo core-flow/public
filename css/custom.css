@@ -112,3 +112,10 @@ section.post > div.row > div > p > img {
   }
 }
 
+.same-height-row {
+  display: flex;
+}
+
+.same-height-always {
+  margin: auto 0;
+}

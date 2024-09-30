@@ -368,7 +368,7 @@ var windowWidth
 $(function () {
   windowWidth = $(window).width()
 
-  $(this).alignElementsSameHeight()
+  // $(this).alignElementsSameHeight()
   pictureZoom()
 })
 
@@ -377,7 +377,7 @@ $(window).resize(function () {
 
   if (windowWidth !== newWindowWidth) {
     setTimeout(function () {
-      $(this).alignElementsSameHeight()
+      // $(this).alignElementsSameHeight()
       fullScreenContainer()
       pictureZoom()
     }, 205)
